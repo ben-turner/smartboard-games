@@ -4,6 +4,7 @@ body {
   background-size: cover;
   background-origin: center;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .floating-box {
@@ -27,4 +28,31 @@ body {
   opacity: 0;
 }
 
+.controls {
+  top: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  font-size: 15pt;
+}
+
+#buttons {
+  bottom: 25px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+}
+
+.answerbutton {
+  width: 9%;
+  height: 100%;
+  margin: 0;
+  margin-left: 13%;
+  background-color: red;
+}
 
