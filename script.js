@@ -27,10 +27,6 @@ function nextClicked() {
   setTimeout(nextQuestion, 1000);
 }
 
-function prevClicked() {
-
-}
-
 function init() {
   var buttons = document.getElementsByClassName('answerbutton');
   for (var i = 0; i < buttons.length; i++) {
